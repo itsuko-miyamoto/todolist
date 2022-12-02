@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+body{
+  background-color: #fcfcfc;
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    color: #666;
+}
+
+.main_contents {
+
+}
+
+/*フッターを下に固定*/
+main > .container {
+  padding: 3% 15px 0;
+}
+.container {
+  width: auto;
+  padding: 0 15px;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1380px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+
+.bg-base {
+    background-color: #800040;
+    color: white;
+}
+
+footer{
+  background-color: #800040;
+  color:#fff;
+  text-align: right;
+  padding: .2rem 1rem;
+}
+
+header{
+  background-color: #800040;
+  padding: 0px 10px;
+  color: white;
+}
+header a{
+  font-size: 0.9em;
+  text-decoration: none;
+  color:#fff !important;
+}
+header a:hover {
+  text-decoration: none;
+  color:#fff !important;
+}
+
+.title {
+    font-size: 2em;
+}
+
+
+/*ログイン画面*/
+.login-box{
+  display: flex;
+}
+.form-signin {
+  width: 100%;
+  max-width: 800px;
+  padding: 15px;
+  margin: auto;
+}
+.login-wrap{
+/*  max-width: 480px; */
+  margin: 30px auto;
+  color: #666;
+}
+
+.login-news{
+  margin: 30px auto;
+  text-align: left;
+  color: #666;
+}
+.login-news ul{
+  list-style: none;
+  padding-left:0;
+}
+.login-news ul li{
+  margin-bottom: 0.6rem;
+}
+.login-news ul li span{
+  width: 100px;
+}
+
+.page-wrap{
+/*  max-width: 480px; */
+  width: auto;
+  padding: 0 15px;
+  margin: 30px auto;
+  color: #666;
+}
+
+.btn-sm{
+    font-size:0.8em
+}
+
+
+.btn-base{
+  background-color: #800040;
+  color: #fff;
+}
+.btn-base{border:1px solid #800040;}
+.btn-base:hover{
+  background-color: #510028;
+  color: #fff;
+}
+
+.btn-base-dark{
+  background-color: #510028;
+  color: #fff;
+}
+.btn-base-dark{border:1px solid #510028;}
+.btn-base-dark:hover{
+  background-color: #37001c;
+  color: #fff;
+}
+
+ul, li {
+    list-style-type: none;
+}
+/*---------------------*/
+
+/* 一覧 */
+
+.search-box-header-list {
+    background-color:#9dd6e8;
+    color: #1f6a83;
+}
+.search-box-body-list {
+    background-color:#f8fdfe;
+}
+.search-box-footer-list {
+    background-color:#e2f3f8;
+/*    font-size:0.8em; */
+}
+.search-box-body-list label {
+    font-size:0.8em;
+}
+
+
+.search-checkbox-span {
+    font-size:1.3em;
+}
+
+.card-title {
+    font-size:1em;
+/*    font-weight: bold; */
+}
+.btn-list {
+    background-color:#45AED3;
+    color:white;
+}
+.btn-list{border:1px solid #45AED3;}
+.btn-list:hover{
+  background-color: #2786a5;
+  color: #fff;
+}
+
+.nav-pills-list .nav-link {
+    border-radius: 0.25rem
+}
+.nav-pills-list .nav-link.active,
+.nav-pills-list .show > .nav-link {
+    color: #fff;
+    background-color: #808080
+}
+.nav-pills-list .nav-link {
+    color: #8c959d
+}
+.nav-pills-list .nav-link:not(.active):hover {
+    color: #505050
+}
+.nav-pills-list .nav-item.dropdown.show .nav-link:hover {
+    color: #fff
+}
+
+/*---------------------*/
+
+#table_list {
+/*    font-size:0.9em; */
+}
+#table_list th {
+    white-space:nowrap;
+}
+.text-nowrap {
+    white-space:nowrap;
+}
+
+.w70 {
+    width: 70px;
+}
+.w100 {
+    width: 100px;
+}
+.w120 {
+    width: 120px;
+}
+.w150 {
+    width: 150px;
+}
+.w160 {
+    width: 160px;
+}
+.w200 {
+    width: 200px;
+}
+.w250 {
+    width: 250px;
+}
+.wp10 {
+    width: 10%;
+}
+.wp40 {
+    width: 40%;
+}
+.wp60 {
+    width: 60%;
+}
+.wp80 {
+    width: 80%;
+}
+
+.bg-thead {
+    background-color: #e7f5fa;
+}
+
+.caution {
+    font-size:1.5rem;
+    text-decoration:underline;
+    color: #cc0000;
+}
+
+.notice-type {
+    width:100px;
+    color:white;
+    text-align:center;
+    border-radius: 5px;
+    font-size:0.8rem;
+}
